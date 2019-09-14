@@ -1,10 +1,10 @@
 import React from 'react';
 
 // eslint-disable-next-line no-undef
+import styled from 'styled-components';
+
 const Section = styled.div`
-  p {
-    color: ${props => props.theme.mainBrandColor} !important;
-  }
+  background: ${props => props.theme.backgroundColor};
 `;
 
 const Banner = () => (
@@ -27,7 +27,7 @@ const Banner = () => (
         <div className="column">
           <div className="media-content">
             <div className="content">
-              <h1 className="title is-4">Initial Problem</h1>
+              <h1 className="title is-4">Our Solution</h1>
               <p className="">
                 Temporibus autem quibusdam et aut officiis debitis aut rerum
                 necessitatibus saepe eveniet ut et voluptates repudiandae sint
@@ -40,7 +40,7 @@ const Banner = () => (
         <div className="column">
           <div className="media-content">
             <div className="content">
-              <h1 className="title is-4">Initial Problem</h1>
+              <h1 className="title is-4">Amazing Result</h1>
               <p className="">
                 Temporibus autem quibusdam et aut officiis debitis aut rerum
                 necessitatibus saepe eveniet ut et voluptates repudiandae sint
