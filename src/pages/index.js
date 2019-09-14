@@ -2,15 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Seo from '../components/Seo';
+import Banner from '../components/Banner';
 import Layout from '../components/Layout';
 
 const Container = styled.div`
   margin-top: 2rem;
   margin-bottom: 4rem;
   text-align: center;
-  h1 {
-    color: ${props => props.theme.mainBrandColor} !important;
-  }
 `;
 
 export default class IndexPage extends React.Component {
@@ -20,11 +18,29 @@ export default class IndexPage extends React.Component {
         <Seo title="Home" description="Welcome to GatsbyJs v1" />
         <section className="section">
           <Container className="container">
-            <h1 className="title">Hi people</h1>
-            <p>Welcome to your new Gatsby site.</p>
-            <p>Now go build something great.</p>
+            <div className="columns">
+              <div className="column">
+                <section className="hero is-medium">
+                  <div className="hero-body">
+                    <div className="container">
+                      <h1 className="subtitle is-uppercase has-text-weight-semibold">
+                        branding & identity
+                      </h1>
+                      <h2 className="title is-size-2">Rebranding Project</h2>
+                      <p className="has-text-weight-semibold">
+                        Here is a short description of the
+                      </p>
+                      <p className="has-text-weight-semibold">
+                        project we completed.
+                      </p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
           </Container>
         </section>
+        <Banner title="cards" description="Welcome to GatsbyJs v1" />
       </Layout>
     );
   }
