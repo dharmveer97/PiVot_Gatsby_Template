@@ -6,8 +6,7 @@ const Gallery = () => (
       <div className="columns">
         <div
           className="column is-half
-            is-offset-one-quarter"
-        >
+            is-offset-one-quarter">
           <section className="hero">
             <div className="hero-body">
               <div className="container">
