@@ -5,6 +5,7 @@ import Seo from '../components/Seo';
 import Banner from '../components/Banner';
 import Gallery from '../components/Gallery';
 import Gallerydata from '../components/Gallerydata';
+import Design from '../components/Design';
 import Layout from '../components/Layout';
 
 const Container = styled.div`
@@ -48,6 +49,7 @@ export default class IndexPage extends React.Component {
           title="Our-Gallery-data"
           description="Welcome to GatsbyJs v1"
         />
+        <Design title="Designs" description="Welcome to GatsbyJs v1" />
       </Layout>
     );
   }
