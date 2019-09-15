@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import Seo from '../components/Seo';
 import Banner from '../components/Banner';
+import Gallery from '../components/Gallery';
+import Gallerydata from '../components/Gallerydata';
 import Layout from '../components/Layout';
 
 const Container = styled.div`
@@ -41,6 +43,11 @@ export default class IndexPage extends React.Component {
           </Container>
         </section>
         <Banner title="cards" description="Welcome to GatsbyJs v1" />
+        <Gallery title="Our-Gallery" description="Welcome to GatsbyJs v1" />
+        <Gallerydata
+          title="Our-Gallery-data"
+          description="Welcome to GatsbyJs v1"
+        />
       </Layout>
     );
   }
