@@ -8,6 +8,9 @@ const Wrapper = styled.div`
   .section {
     background: rgba(0, 0, 0, 0.8);
   }
+  h1 {
+    color: ${props => props.theme.mainBrandColor} !important;
+  }
 `;
 
 const Design = () => (
@@ -24,7 +27,7 @@ const Design = () => (
                   </h1>
                   <div className="has-text-centered">
                     <a className="button is-danger is-medium is-outlined">
-                      Let's Work Together
+                      Let s Work Together
                     </a>
                   </div>
                 </div>

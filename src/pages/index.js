@@ -7,6 +7,9 @@ import Gallery from '../components/Gallery';
 import Gallerydata from '../components/Gallerydata';
 import Design from '../components/Design';
 import Layout from '../components/Layout';
+import Team from '../components/Team';
+import Cardcontent from '../components/Cardcontent';
+import Footer from '../components/Footer';
 
 const Container = styled.div`
   margin-top: 2rem;
@@ -50,6 +53,9 @@ export default class IndexPage extends React.Component {
           description="Welcome to GatsbyJs v1"
         />
         <Design title="Designs" description="Welcome to GatsbyJs v1" />
+        <Team title="our-team" description="Welcome to GatsbyJs v1" />
+        <Cardcontent title="cardcontent" description="Welcome to GatsbyJs v1" />
+        <Footer title="bottom" description="Welcome to GatsbyJs v1" />
       </Layout>
     );
   }
