@@ -15,23 +15,27 @@ const Footer = () => (
           <div className="column">
             <h4 className="title is-4">Download The App</h4>
             <div>
-              <a href="https://www.packrs.co/">
-                <img
-                  src="https://www.packrs.co/images/store-ios.png"
-                  alt="ios"
-                />
+              <a href="https://www.packrs.co/" className="playstore">
+                <figure className="image is-32x32">
+                  <img
+                    src="https://www.packrs.co/images/store-ios.png"
+                    alt="aaaa"
+                  />
+                </figure>
               </a>
-              <a href="https://www.packrs.co/">
-                <img
-                  src="https://www.packrs.co/images/store-android.png"
-                  alt="play-store"
-                />
+              <a href="https://www.packrs.co/" className="appstore">
+                <figure className="image is-32x32">
+                  <img
+                    src="https://www.packrs.co/images/store-android.png"
+                    alt="aaaa"
+                  />
+                </figure>
               </a>
             </div>
           </div>
           <div className="column">
             <h4 className="title is-4">Pivot</h4>
-            <ul>
+            <ul className="has-text-weight-semibold">
               <li>
                 <a href="">about us</a>
               </li>
@@ -48,7 +52,7 @@ const Footer = () => (
           </div>
           <div className="column">
             <h4 className="title is-4">Our Information</h4>
-            <ul>
+            <ul className="has-text-weight-semibold">
               <li>
                 <a href="">FAQ</a>
               </li>
@@ -62,7 +66,7 @@ const Footer = () => (
           </div>
           <div className="column">
             <h4 className="title is-4">Reach Us</h4>
-            <ul>
+            <ul className="has-text-weight-semibold">
               <li>
                 <a href="">Careers</a>
               </li>
@@ -80,16 +84,12 @@ const Footer = () => (
         </div>
         <div className="columns">
           <div className="column">
-            <p>
+            <p className="has-text-weight-semibold">
               <strong>Bulma</strong> by{' '}
               <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
               licensed
               <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-              The website content is licensed{' '}
-              <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                CC BY NC SA 4.0
-              </a>
-              .
+              The website content is licensed .
             </p>
           </div>
           <div className="column has-text-right is-size-3	">
