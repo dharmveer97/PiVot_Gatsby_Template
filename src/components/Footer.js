@@ -16,7 +16,7 @@ const Footer = () => (
             <h4 className="title is-4">Download The App</h4>
             <div>
               <a href="https://www.packrs.co/" className="playstore">
-                <figure className="image is-32x32">
+                <figure className="image is-32x32 stores">
                   <img
                     src="https://www.packrs.co/images/store-ios.png"
                     alt="aaaa"
@@ -24,7 +24,7 @@ const Footer = () => (
                 </figure>
               </a>
               <a href="https://www.packrs.co/" className="appstore">
-                <figure className="image is-32x32">
+                <figure className="image is-32x32 stores">
                   <img
                     src="https://www.packrs.co/images/store-android.png"
                     alt="aaaa"
