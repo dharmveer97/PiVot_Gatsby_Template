@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Gallerydata = () => (
+const GalleryData = () => (
   <section className="section">
     <div className="container">
       <div className="columns is-multiline is-mobile">
@@ -37,4 +37,4 @@ const Gallerydata = () => (
   </section>
 );
 
-export default Gallerydata;
+export default GalleryData;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from './Cards';
 
-const Cardcontent = () => (
+const CardContent = () => (
   <section className="section">
     <div className="container">
       <div className="columns">
@@ -30,4 +30,4 @@ const Cardcontent = () => (
     </div>
   </section>
 );
-export default Cardcontent;
+export default CardContent;

@@ -4,11 +4,11 @@ import styled from 'styled-components';
 import Seo from '../components/Seo';
 import Banner from '../components/Banner';
 import Gallery from '../components/Gallery';
-import Gallerydata from '../components/Gallerydata';
+import GalleryData from '../components/GalleryData';
 import Design from '../components/Design';
 import Layout from '../components/Layout';
 import Team from '../components/Team';
-import Cardcontent from '../components/Cardcontent';
+import CardContent from '../components/CardContent';
 import Footer from '../components/Footer';
 
 const Container = styled.div`
@@ -48,13 +48,13 @@ export default class IndexPage extends React.Component {
         </section>
         <Banner title="cards" description="Welcome to GatsbyJs v1" />
         <Gallery title="Our-Gallery" description="Welcome to GatsbyJs v1" />
-        <Gallerydata
+        <GalleryData
           title="Our-Gallery-data"
           description="Welcome to GatsbyJs v1"
         />
         <Design title="Designs" description="Welcome to GatsbyJs v1" />
         <Team title="our-team" description="Welcome to GatsbyJs v1" />
-        <Cardcontent title="cardcontent" description="Welcome to GatsbyJs v1" />
+        <CardContent title="CardContent" description="Welcome to GatsbyJs v1" />
         <Footer title="bottom" description="Welcome to GatsbyJs v1" />
       </Layout>
     );
