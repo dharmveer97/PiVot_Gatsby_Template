@@ -6,6 +6,9 @@ const Section = styled.div`
   .footer {
     background-color: rgb(114, 102, 153);
   }
+  .image {
+    width: 73px !important;
+  }
 `;
 const Footer = () => (
   <Section className="section">
@@ -16,9 +19,10 @@ const Footer = () => (
             <h4 className="title is-4">Download The App</h4>
             <div>
               <a href="https://www.packrs.co/" className="playstore">
-                <figure className="image is-32x32 stores">
+                <figure className="image is-32x32">
                   <img
                     src="https://www.packrs.co/images/store-ios.png"
+                    className="stores"
                     alt="aaaa"
                   />
                 </figure>
@@ -27,6 +31,7 @@ const Footer = () => (
                 <figure className="image is-32x32 stores">
                   <img
                     src="https://www.packrs.co/images/store-android.png"
+                    className="stores"
                     alt="aaaa"
                   />
                 </figure>
